@@ -7,10 +7,10 @@ const config = {
     DB_PASSORD: "0000",
 
     GOOGLE: {
-        clientID: "",
-        clientSecret: '',
+        clientID: "3543863861-2d1c51jtu4i17lnhesrmbbme9ledbeoi.apps.googleusercontent.com",
+        clientSecret: 'Iugjwe1djZ36CFcUeNQE1ajt',
         callbackURL: "http://localhost:3001/auth/google/callback",
-        scope: 'https://www.googleapis.com/auth/plus.login'
+        scope: ['https://www.googleapis.com/auth/plus.login']
     }
 }
 
