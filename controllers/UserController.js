@@ -38,8 +38,8 @@ const updateUser = (request, response) => {
     const { name, email } = request.body
 
     pool.query(
-        'UPDATE users SET name = $1, email = $2 WHERE id = $3',
-        [name, email, id],
+        'UPDATE users SET lastname = $1, firstname = $2, email = $3 WHERE id = $4',
+        [lastname, firstname, email, id],
         (error, results) => {
             if (error) {
                 throw error
